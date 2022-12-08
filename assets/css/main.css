@@ -1,0 +1,581 @@
+body {
+}
+
+/* Universal */
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Home Page - Nav Bar */
+.header-bar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-links ul {
+    font-family: "Hind";
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    text-align: center;
+}
+
+.nav-links ul li {
+    text-decoration: none;
+    color:white;
+    padding-bottom: 10px;
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 0.5;
+}
+
+.nav-links ul li a:hover{
+   color: black;
+   transition-duration: 0.4s;
+   opacity: 1;
+   font-size: 45px;
+}
+
+
+/* Home Page */
+#header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(141, 11, 255, 0.7), rgba(141, 11, 255, 0.7)),url("https://media.wired.com/photos/62feb60bcea7c0581e825cb0/master/pass/Fate-of-Game-Preservation-Games-GettyImages-1170073827.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* Main title page contents */
+.title {
+    text-align: center;
+    font-family: "Poppins";
+    padding-top: 170px;
+}
+
+.title h1{
+    color: white;
+    font-size: 125px;
+    padding-bottom: 50px;
+}
+
+.title h6 {
+    color: white;
+    font-size: 40px;
+}
+
+.title p {
+    color: black;
+    font-style: italic;
+}
+
+/* Link to LinkedIn */
+.felix-link{
+    text-decoration: none;
+    color:red;
+}
+
+.felix-link:hover{
+    color: white;
+    transition-duration: 0.5s;
+}
+
+/* About Section */
+#About {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(144, 255, 142, 0.7), rgba(144, 255, 142, 0.7)),url("https://images4.alphacoders.com/982/982990.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.About-title {
+    padding-top: 150px;
+    color: black;
+    font-size: 80px;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.About-content{
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+.About-content p{
+    padding-bottom: 50px;
+}
+
+.About-content h6{
+    width: 400px;
+    color: white;
+}
+
+
+.product-list .col {
+    display: inline-block;
+    font-size: 60px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.product-list img{
+    max-height: 200px;
+    background-blend-mode: hard-light;
+    opacity: 0.8;
+    padding-bottom: 100px; 
+}
+
+.About-footer {
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.button{
+
+}
+
+.button-1 {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #8d0bff;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "Poppins";
+    font-size: 21px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.button-1:hover,
+.button-1:focus {
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-1:hover {
+    transform: translateY(-1px);
+}
+
+.button-1:active {
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+
+/* About me HTML CSS */
+
+.Felix-container {
+    background-image: linear-gradient(rgba(148, 0, 32, 0.7), rgba(148, 0, 32, 0.7)), url("https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg");
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.header-felix {
+    width: 100%;
+    background-color: #940020;
+    top: 0;
+    height: 60px;
+}
+
+.return-home {
+    height: 60px;
+    padding-left: 20px;
+    padding-top: 6px;
+}
+
+.return-home a {
+    font-family: "Poppins";
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    height: 60px;
+}
+
+.return-home a:hover{
+    color: black;
+    transition-duration: 0.5s;
+}
+
+.summary h3 {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    font-family: "Poppins";
+    font-size: 30px;
+    color: white;
+}
+.summary p {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "Poppins";
+    color: white;
+    padding-bottom: 20px;
+}
+
+.Felix-title{
+    font-family: "Poppins";
+    color: black;
+    text-align: center;
+    font-size: 60px;
+}
+
+.image-container{
+    width: 350px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+}
+
+.me-image {
+    width: 350px;
+    height: 400px;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+/* My Quick Top 5 */
+
+#top-five {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 251, 255, 0.7), rgba(0, 251, 255, 0.7)),url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105__340.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.top-five-header h1 {
+    color: black;
+    font-size: 80px;
+    font-family: "Poppins";
+    text-align: center;
+    padding-top: 150px;
+}
+
+.top-five-header p {
+    color: black;
+    font-size: 30px;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.image-row-1 {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.image-row-2 {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-around;
+}
+
+/* Witcher 3 transitions */
+.witcher {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.witcher-image {
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.witcher-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 30px;
+}
+
+.witcher-overlay:hover {
+    opacity: 1;
+}
+
+.witcher-overlay a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Cuphead transition */
+.cuphead {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.cuphead-image {
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.cuphead-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 30px;
+}
+
+.cuphead-overlay:hover {
+    opacity: 1;
+}
+
+.cuphead-overlay a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Rimworld transition */
+.rimworld {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.rimworld-image {
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.rimworld-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 30px;
+}
+
+.rimworld-overlay:hover {
+    opacity: 1;
+}
+
+.rimworld-overlay a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Assassins Creed II Transition */
+.AC2 {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.AC2-image {
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.AC2-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 30px;
+}
+
+.AC2-overlay:hover {
+    opacity: 1;
+}
+
+.AC2-overlay a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Portal Transition */
+.portal {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    border-radius: 30px
+}
+
+.portal-image {
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.portal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 30px;
+}
+
+.portal-overlay:hover {
+    opacity: 1;
+}
+
+.portal-overlay a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Witcher 3 Review Page */
+
+#Witcher-Page {
+    background-image: url("https://images4.alphacoders.com/587/thumb-1920-587508.png");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Poppins";
+}
+
+/* Cuphead 3 Review Page */
+
+#Cuphead-Header {
+    background-image: url(https://wallpaperaccess.com/full/1593749.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
